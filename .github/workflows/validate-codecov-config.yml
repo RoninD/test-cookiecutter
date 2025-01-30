@@ -6,6 +6,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write # This gives write access to the contents of the repository
+
 jobs:
   validate-codecov-config:
     runs-on: ubuntu-22.04
