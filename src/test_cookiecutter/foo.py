@@ -10,6 +10,8 @@ def foo(bar: str) -> str:
         Description of return value
     """
 
+    print("hello world")
+
     return bar
 
 
